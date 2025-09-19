@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+
+  <header class="w-full bg-gray-800 fixed top-0 left-0 z-50 shadow-md">
+    <nav class="container mx-auto flex justify-between items-center py-4 px-6">
+      <h1 class="text-xl font-bold">Portfolio</h1>
+      <ul class="hidden md:flex space-x-6 text-gray-300">
+        <li><a href="#" class="hover:text-cyan-400">Home</a></li>
+        <li><a href="#services" class="hover:text-cyan-400">Services</a></li>
+        <li><a href="#projects" class="hover:text-cyan-400">Portfolio</a></li>
+        <li><a href="#contact" class="hover:text-cyan-400">Contact</a></li>
+      </ul>
+
+      <button class="md:hidden text-gray-300">☰</button>
+    </nav>
+  </header>
+
+
+  <section class="container mx-auto px-6 pt-28 text-center flex flex-col">
+
+      
+    <div class="flex justify-between mt-10 items-center">
+        <div>
+        <p class="text-gray-400">Hello It's Me</p>
+        <h2 class="text-3xl md:text-5xl font-bold mt-2">John Kendric</h2>
+        <p class="text-cyan-400 font-semibold mt-2">And I'm a Frontend Developer</p>
+        <p class="text-gray-400 mt-4 max-w-2xl mx-auto">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod molestias
+            molestiae saepe repudiandae.
+    </p>
+        </div>
+      <img src="img/1d68639bfc06c716426b7e4ff485c1692da1b78c.png" alt="" class="rounded-xl shadow-lg border-4 border-cyan-400"/>
+    </div>
+
+  </section>
+
+  <section id="services" class="container mx-auto px-6 mt-20 text-center">
+    <h2 class="text-2xl md:text-3xl font-bold">Our <span class="text-cyan-400">Services</span></h2>
+    <div class="grid md:grid-cols-3 gap-8 mt-10">
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-md">
+        <img src="img/Vector (1).png" alt="">
+        <h3 class="text-xl font-semibold mb-2">Web Development</h3>
+        <p class="text-gray-400 mb-4">Modern websites with responsive design.</p>
+        <button class="px-4 py-2 bg-cyan-400 text-gray-900 rounded-lg">Read More</button>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-md">
+        <img src="img/Icon.png" alt="">
+        <h3 class="text-xl font-semibold mb-2">Graphic Design</h3>
+        <p class="text-gray-400 mb-4">Creative designs for your brand.</p>
+        <button class="px-4 py-2 bg-cyan-400 text-gray-900 rounded-lg">Read More</button>
+      </div>
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-md m-auto">
+        <img src="img/Vector (2).png" alt="">
+        <h3 class="text-xl font-semibold mb-2 ">Digital Marketing</h3>
+        <p class="text-gray-400 mb-4">Grow your business with online strategy.</p>
+        <button class="px-4 py-2 bg-cyan-400 text-gray-900 rounded-lg">Read More</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="container mx-auto px-6 mt-20 text-center">
+    <h2 class="text-2xl md:text-3xl font-bold">Latest <span class="text-cyan-400">Project</span></h2>
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-6 mt-10">
+      <img src="img/Overlay+Shadow.png" alt="" class="rounded-lg shadow-md  transition"/>
+      <img src="img/Overlay+Shadow.png" alt="" class="rounded-lg shadow-md  transition"/>
+      <img src="img/Overlay+Shadow.png" alt="" class="rounded-lg shadow-md  transition"/>
+      <img src="img/Overlay+Shadow.png" alt="" class="rounded-lg shadow-md  transition"/>
+      <img src="img/Overlay+Shadow.png" alt="" class="rounded-lg shadow-md  transition"/>
+      <img src="img/Overlay+Shadow.png" alt="" class="rounded-lg shadow-md  transition"/>
+    </div>
+  </section>
+
+  <section id="contact" class="container mx-auto px-6 mt-20 text-center">
+    <h2 class="text-2xl md:text-3xl font-bold">Contact <span class="text-cyan-400">Me!</span></h2>
+    <form class="grid md:grid-cols-2 gap-6 mt-10 text-gray-900">
+      <input type="text" placeholder="Full Name" class="p-3 rounded-lg"/>
+      <input type="email" placeholder="Email" class="p-3 rounded-lg"/>
+      <input type="text" placeholder="Subject" class="p-3 rounded-lg md:col-span-2"/>
+      <textarea rows="5" placeholder="Message" class="p-3 rounded-lg md:col-span-2"></textarea>
+      <button class="md:col-span-2 bg-cyan-400 text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-cyan-300">Send Message</button>
+    </form>
+  </section>
+
+  
+
+</body>
+</html>
